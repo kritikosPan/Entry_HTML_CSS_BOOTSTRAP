@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>Courses</title>
+
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <h1 class="gradient shimmer"><a href="">BootCamp 2022</a></h1>
+            <div class="nav-list">
+                <a href="index.html" class="active">Home</a>
+                <a href="students.html">Students</a>
+                <a href="courses.html">Courses</a>
+                <a href="trainers.html">Trainers</a>
+                <a href="assignments.html">Assignments</a>
+            </div>
+    </nav>
+    <h1>
+        <p class="display-text shimmer"> Dynamic Courses to Attend</p>
+        <br>
+    </h1>
+    <br>
+    <br>
+    <h2>
+        <p>
+        <form action="" class="formStyling" type="text" name="courses" id="courses">
+            <p>
+                <label for="course">Description:</label>
+                <input type="text" name="course" id="course" title="course" placeholder="Type here..." required minlength="5" maxlength="20">
+            </p>
+            <p>
+                <label for="Registration">Date of Registration:</label>
+                <input type="date" name="Registration" id="Registration" title="Registration" required min="2022-01-01" max="2027-12-31"> <button type="submit"id="submit">Add</button>
+            </p>
+            <button type="reset" id="reset">Reset</button>
+        </form>
+        <br>
+    </h2>
+    <p>
+        <select name="descriptionDataDropDown" id="descriptionDataDropDown">
+            <option value="">Please Pick a Course</option>
+            <option value="Java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Microsoft C">Microsoft C</option>
+        </select>
+        <br>
+        <select name="RegistrationDropDown" id="RegistrationDropDown">
+            <option value="">Please Pick the Date</option>
+            <option value="30/03/2022">March</option>
+            <option value="30/04/2022">April</option>
+            <option value="30/05/2022">May</option>
+            <option value="30/06/2022">June</option>
+        </select>
+    </p>
+    <br>
+    <button type="submit" id="submitA">Edit</button>
+    <button type="reset" id="reset">Reset</button>
+    <br>
+    <br>
+    <br>
+    <p>
+        <a href="trainers.html">Press Here to Proceed to Trainers Section</a>
+    </p>
+    <br>
+    <script src="course.js"></script>
+</body>
+<footer id="footer">
+    <p>All Rights Reserved. <a href="CultivatePeoplesMind.org">CultivatePeoplesMind.org</a></p>
+    <p>Contact us: <a href="mailto:pan_kritikos@aol.com">pan_kritikos@aol.com</a></p>
+</footer>
+
+</html>

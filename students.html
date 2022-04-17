@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>Students</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <h1 class="gradient shimmer"><a href="">BootCamp 2022</a></h1>
+            <div class="nav-list">
+                <a href="index.html" class="active">Home</a>
+                <a href="students.html">Students</a><a href="studentsperCourse.html">Student/Course</a>
+                <a href="courses.html">Courses</a>
+                <a href="trainers.html">Trainers</a>
+                <a href="assignments.html">Assignments</a>
+            </div>
+    </nav>
+    <h1>
+        <p class="display-text shimmer"> Students Data Procedure runing...</p>
+        <br>
+    </h1>
+    <br>
+    <br>
+    <h2>
+        <p>
+        <form action="" class="formStyling" type="text" name="students" id="students">
+            <p>
+                <label for="personalData">First & Last Name: </label>
+                <input type="text" size="6" name="personalData" id="personalData" title="personalData" placeholder="Type here..." required minlength="5" maxlength="20">
+            </p>
+            <p>
+                <label for="tuitionFees">Current Balance: </label>
+                <input type="number" name="tuitionFees" id="tuitionFees" title="tuitionFees" required min="1000" max="2500"> <button type="submit" id="submit">Add</button>
+                 
+            </p>
+            <button type="reset" id="reset">Reset</button>
+        </form>
+        <br>
+    </h2>
+    <p>
+        <select name="personalDataDropDown" id="personalDataDropDown">
+            <option value="">Please Pick a Student</option>
+            <option value="Adoniou">Adoniou Adonis</option>
+            <option value="Vasileiou">Vasileiou Vasileios</option>
+            <option value="Georgiou">Georgiou Georgios</option>
+            <option value="Dimitriou">Dimitriou Dimitrios</option>
+        </select>
+        <br>
+        <select name="tuitionFeesDropDown" id="tuitionFeesDropDown">
+            <option value="">Please Pick a Value</option>
+            <option value="1000">1000</option>
+            <option value="2000">2000</option>
+            <option value="3000">3000</option>
+            <option value="4000">4000</option>
+        </select>
+    </p>
+    <br>
+    <button type="submit" id="submitA">Edit</button>
+    <button type="reset" id="reset">Reset</button>
+    <br>
+    <br>
+    <br>
+    <p>
+        <a href="courses.html">Press Here to Proceed to Courses Section</a>
+    </p>
+    <br>
+    <script src="students.js"></script>
+</body>
+<footer id="footer">
+    <p>All Rights Reserved. <a href="CultivatePeoplesMind.org">CultivatePeoplesMind.org</a></p>
+    <p>Contact us: <a href="mailto:pan_kritikos@aol.com">pan_kritikos@aol.com</a></p>
+</footer>
+
+</html>

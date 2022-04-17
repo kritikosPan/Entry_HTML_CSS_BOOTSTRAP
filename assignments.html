@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>Assignments</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <h1 class="gradient shimmer"><a href="">BootCamp 2022</a></h1>
+            <div class="nav-list">
+                <a href="index.html" class="active">Home</a>
+                <a href="students.html">Students</a>
+                <a href="courses.html">Courses</a>
+                <a href="trainers.html">Trainers</a>
+                <a href="assignments.html">Assignments</a><a href="assignmentsPerCourse.html">Assignment Per Course</a>
+            </div>
+    </nav>
+    <h1>
+        <p class="display-text shimmer">Focused and Object Oriented Assignments</p>
+        <br>
+    </h1>
+    <br>
+    <br>
+    <h2>
+        <p>
+        <form action="" class="formStyling" type="text" name="students" id="students">
+            <p>
+                <label for="assignments">Description: </label>
+                <input type="text" name="assignments" id="assignments" title="assignments" placeholder="Type here..." required minlength="5" maxlength="20">
+            </p>
+            <p>
+                <label for="subDateTime">Submission Date: </label>
+                <input type="date" name="subDateTime" id="subDateTime" title="subDateTime" required min="2022-01-01" max="2027-12-31"> <button type="submit" id="submit">Add</button>
+            </p>
+            <button type="reset" id="reset">Reset</button>
+        </form>
+        <br>
+    </h2>
+    <p>
+        <select name="assignmentsaDropDown" id="assignmentsDataDropDown">
+            <option value="">Please Pick an Assignment:</option>
+            <option value="Assignment A">Assignment A</option>
+            <option value="Assignment B">Assignment B</option>
+            <option value="Assignment C">Assignment C</option>
+            <option value="Assignment D">Assignment D</option>
+        </select>
+        <br>
+        <select name="assignmentsSubtDropDown" id="assignmentsSubtDropDown">
+            <option value="">Save the Date:</option>
+            <option value="March">31/03/2022</option>
+            <option value="April">30/04/2022</option>
+            <option value="May">31/05/2022</option>
+            <option value="June">30/06/2022</option>
+        </select>
+    </p>
+    <br>
+    <button type="submit" id="submitA">Update</button>
+    <button type="reset" id="reset">Reset</button>
+    <br>
+    <br>
+    <br>
+    <p>
+        <a href="assignmentsPerCourse.html">Press Here to Proceed to Assignment per Course Conjuction Section</a>
+    </p>
+    <br>
+    <script src="assignments.js"></script>
+</body>
+<footer id="footer">
+    <p>All Rights Reserved. <a href="CultivatePeoplesMind.org">CultivatePeoplesMind.org</a></p>
+    <p>Contact us: <a href="mailto:pan_kritikos@aol.com">pan_kritikos@aol.com</a></p>
+</footer>
+
+</html>
